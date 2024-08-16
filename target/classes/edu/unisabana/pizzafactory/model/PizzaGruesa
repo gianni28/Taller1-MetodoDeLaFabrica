@@ -1,0 +1,17 @@
+public class PizzaGruesa extends Pizza {
+
+    @Override
+    public Amasar createAmasarPizza() {
+        return new AmasarPizzaGruesa();
+    }
+
+    @Override
+    public Hornear createHornearPizza() {
+        return new HornearPizzaGruesa();
+    }
+
+    @Override
+    public Moldear createMoldearPizza() {
+        return new MoldearPizzaGruesa();
+    }
+}

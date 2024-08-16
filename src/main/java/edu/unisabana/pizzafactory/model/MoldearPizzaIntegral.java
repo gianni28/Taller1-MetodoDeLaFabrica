@@ -8,11 +8,11 @@ import java.util.logging.Logger;
  *
  * @author cesarvefe
  */
-public class MoldeadorPizzaDelgada implements Moldear {
+public class MoldeadorPizzaIntegral implements Moldear {
 
     public void moldearPizzaPequena() {
         Logger.getLogger(MoldeadorPizzaDelgada.class.getName())
-                .log(Level.INFO, "[O] Moldeando pizza pequena de masa convencional.");
+                .log(Level.INFO, "[O] Moldeando pizza pequena de masa integral.");
         
         //CODIGO DE LLAMADO AL MICROCONTROLADOR
 
@@ -20,7 +20,7 @@ public class MoldeadorPizzaDelgada implements Moldear {
 
     public void molderarPizzaMediana() {
         Logger.getLogger(MoldeadorPizzaDelgada.class.getName())
-                .log(Level.INFO, "[O] Moldeando pizza mediana de masa convencional.");
+                .log(Level.INFO, "[O] Moldeando pizza mediana de masa integral.");
         
         //CODIGO DE LLAMADO AL MICROCONTROLADOR
     }

@@ -8,13 +8,13 @@ import java.util.logging.Logger;
  *
  * @author cesarvefe
  */
-public class AmasadorPizzaDelgada implements Amasar {
+public class AmasadorPizzaIntegral implements Amasar {
 
     
     
     public void amasar() {
         Logger.getLogger(AmasadorPizzaDelgada.class.getName())
-                .log(Level.INFO, "[@@] Amasando la pizza delgada con masa convencional.");
+                .log(Level.INFO, "[@@] Amasando la pizza con masa integral.");
         
         //CODIGO DE LLAMADO AL MICROCONTROLADOR
         
